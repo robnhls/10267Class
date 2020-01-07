@@ -32,6 +32,20 @@
             <asp:Button ID="serverControlButton" runat="server" Text="Server side Web server control" OnClientClick="" OnClick="serverControlButton_Click" />
             <asp:Literal ID="placeholder3" runat="server" />
         </p>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Button" />
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+
+
+
 
     </form>
 
