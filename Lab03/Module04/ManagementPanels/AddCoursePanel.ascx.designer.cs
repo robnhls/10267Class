@@ -7,81 +7,72 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Module04 {
+namespace Module04.ManagementPanels {
     
     
-    public partial class CourseManagement {
+    public partial class AddCoursePanel {
         
         /// <summary>
-        /// ViewRadioButton control.
+        /// lblTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton ViewRadioButton;
+        protected global::System.Web.UI.WebControls.Label lblTitle;
         
         /// <summary>
-        /// AddRadioButton control.
+        /// txtTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton AddRadioButton;
+        protected global::System.Web.UI.WebControls.TextBox txtTitle;
         
         /// <summary>
-        /// ViewPanel control.
+        /// lblDays control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel ViewPanel;
+        protected global::System.Web.UI.WebControls.Label lblDays;
         
         /// <summary>
-        /// CourseSelectionDropDown control.
+        /// txtDays control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CourseSelectionDropDown;
+        protected global::System.Web.UI.WebControls.TextBox txtDays;
         
         /// <summary>
-        /// lookupCourseButton control.
+        /// lblDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button lookupCourseButton;
+        protected global::System.Web.UI.WebControls.Label lblDescription;
         
         /// <summary>
-        /// selectedCourseDisplay control.
+        /// txtDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal selectedCourseDisplay;
+        protected global::System.Web.UI.WebControls.TextBox txtDescription;
         
         /// <summary>
-        /// AddPanel control.
+        /// btnAdd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel AddPanel;
-        
-        /// <summary>
-        /// AddCoursePanel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Module04.ManagementPanels.AddCoursePanel AddCoursePanel;
+        protected global::System.Web.UI.WebControls.Button btnAdd;
     }
 }

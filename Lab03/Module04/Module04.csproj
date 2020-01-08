@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="CourseDemo.aspx" />
     <Content Include="CourseManagement.aspx" />
+    <Content Include="ManagementPanels\AddCoursePanel.ascx" />
     <Content Include="SampleRename.aspx" />
     <Content Include="CodeBehindDemo.aspx" />
     <Content Include="Global.asax" />
@@ -91,6 +92,13 @@
     <Compile Include="CourseManagement.aspx.designer.cs">
       <DependentUpon>CourseManagement.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ManagementPanels\AddCoursePanel.ascx.cs">
+      <DependentUpon>AddCoursePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementPanels\AddCoursePanel.ascx.designer.cs">
+      <DependentUpon>AddCoursePanel.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Models\CourseDb.cs" />
     <Compile Include="SampleRename.aspx.cs">
       <DependentUpon>SampleRename.aspx</DependentUpon>
@@ -110,9 +118,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
